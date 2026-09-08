@@ -5,6 +5,7 @@ import type { HealthResult } from '../anilist/types.js';
 export interface PersistedConfig {
   channelId: string | null;
   statusChannelId: string | null;
+  statusMessageId?: string;
   roleId: string | null;
   alertMessage: string;
   recoveryMessage: string;
